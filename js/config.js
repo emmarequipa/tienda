@@ -81,7 +81,7 @@ $(function() {
 		numColumns : 3,
 
 		// Google Spreadsheet ID
-		spreadsheetID : "1E9eQBE4c8vGbT12Qg9AhAA2o4JcS4RjSGVWqZ5y6zWk"
+		spreadsheetID : "1uxC_HYcFc3161Z3dsyUCCZ3S-_Vd8p0yOtT464BWHxU"
 
 	});
 
