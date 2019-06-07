@@ -5,7 +5,7 @@ var CloseValor = encodeURIComponent((simpleCart.ids()).toString()+';'+(function(
 var cadena=[];
 simpleCart.each(function(item,x){
 cadena.push('\"'+item.get('name')+'\"'+':'+item.get('quantity'))});return cadena})().toString());
-var url = 'https://script.google.com/macros/s/AKfycbxvsIAHyGlbrAXZWrZ8_TTbcGjm8hBLktslGYVlQkLOadXsfX8A/exec?CloseTime='+CloseTime+'&CloseValor='+CloseValor;
+var url = 'https://script.google.com/macros/s/AKfycbyvfpWXW6-BAOlD3d-0ykTo5jgsHFOh7SHFKYFYbT8E1MO5CoiO/exec?CloseTime='+CloseTime+'&CloseValor='+CloseValor;
 var sendCart = function(url){
 var xhr = new XMLHttpRequest();
 xhr.responseType = 'text';
